@@ -80,23 +80,23 @@
 
 //公告
 {
-	// let bigbox=document.querySelector(".gonger");
-	// let prev=document.querySelector(".gonggao-left");
-	// let next=document.querySelector(".gonggao-right");
-	// let arrows=document.querySelector(".gonggao-jiantou");
-	// console.log(bigbox,prev,next,arrows);
-    //
-	// let dir="r";
-	// next.onclick=function(){
-	// 	if(dir==="r"){
-	// 		bigbox.style.marginTop=-36+"px";
-	// 	}
-	// }
-	// prev.onclick=function(){
-	// 	if(dir==="l"){
-	// 		bigbox.style.marginTop="0";
-	// 	}
-	// }
+	let bigbox=document.querySelector(".gonger");
+	let prev=document.querySelector(".gonggao-left");
+	let next=document.querySelector(".gonggao-right");
+	let arrows=document.querySelector(".gonggao-jiantou");
+	console.log(bigbox,prev,next,arrows);
+
+	let dir="r";
+	next.onclick=function(){
+		if(dir==="r"){
+			bigbox.style.marginTop=-36+"px";
+		}
+	}
+	prev.onclick=function(){
+		// if(.){
+			bigbox.style.marginTop="0";
+		// }
+	}
 }
 
 //轮播
@@ -183,9 +183,5 @@
             lunboFn(dir="l");
         }
     }
-
-
-
-
 
 }
